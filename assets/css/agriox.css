@@ -633,7 +633,7 @@ button {
 
 .main-menu .main-menu__list > li + li,
 .stricky-header .main-menu__list > li + li {
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .main-menu .main-menu__list > li > a,
@@ -1685,15 +1685,15 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
 }
 
 .main-header--one__bottom-right .search-cart {
     position: relative;
     display: block;
-    padding-right: 40px;
+    padding-right: 35px;
 }
 
 .main-header--one__bottom-right .search-cart a {
@@ -1724,19 +1724,19 @@ button {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-left: 40px;
+    padding-left: 35px;
     line-height: 0;
 }
 
-/* .main-header--one__bottom-right .contact-box::before {
+.main-header--one__bottom-right .contact-box::before {
     position: absolute;
     top: 9px;
     left: 0;
     bottom: 9px;
     width: 1px;
-    background: #eceae0;
+    background: var(--agriox-primary, #334b35);;
     content: '';
-} */
+}
 
 .main-header--one__bottom-right .contact-box .icon {
     position: relative;
@@ -1826,7 +1826,7 @@ button {
     -webkit-transform: translateY(0%) translateX(0%);
     transform: translateY(0%) translateX(0%);
     z-index: 1;
-    padding-right: 120px;
+    /* padding-right: 120px; */
 }
 
 /* .main-header--one--two .main-header--one__bottom-middel::before {
@@ -1840,9 +1840,9 @@ button {
     z-index: -1;
 } */
 
-.main-header--one--two .main-header--one__bottom-left {
+/* .main-header--one--two .main-header--one__bottom-left {
     padding-left: 116px;
-}
+} */
 
 /* .main-header--one--two .main-menu .main-menu__list > li > a {
     color: #ffffff;
@@ -1860,7 +1860,7 @@ button {
 } */
 
 .main-header--one--two .main-header--one__bottom-right .search-cart a {
-    color: #ffffff;
+    /* color: #ffffff; */
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
     -webkit-transition-delay: 0.1s;
@@ -1907,13 +1907,13 @@ button {
     color: var(--agriox-base, #b6d549);
 }
 
-.main-header--one--two .main-header--one__bottom-right .search-cart {
+/* .main-header--one--two .main-header--one__bottom-right .search-cart {
     padding-right: 120px;
-}
+} */
 
-.main-header--one--two .main-header--one__bottom-right .contact-box {
+/* .main-header--one--two .main-header--one__bottom-right .contact-box {
     padding-left: 120px;
-}
+} */
 
 /***
 =============================================
@@ -9074,38 +9074,49 @@ Sidebar
 }
 */
 /**Main Header One **/
-@media only screen and (min-width: 1200px) and (max-width: 1450px) {
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
     .main-header--one__bottom-right .search-cart {
         display: none;
     }
+
     .main-header--one__bottom-middel {
         left: 63%;
+    }
+
+    .main-header--one--two .main-header--one__bottom-right .search-cart {
+        display: none;
+    }
+
+    .main-header--one__bottom-right .contact-box {
+        padding-left: 0;
+    }
+
+    .main-header--one__bottom-right .contact-box::before {
+        content: none;
     }
 }
 
 /**Main Header Two **/
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-    .main-header--one--two .main-header--one__bottom-right .search-cart {
-        display: none;
-    }
+
 }
 
 /**Main Header Two **/
-@media only screen and (min-width: 1200px) and (max-width: 1385px) {
+/* @media only screen and (min-width: 1200px) and (max-width: 1385px) {
     .main-header--one--two .main-header--one__bottom-right .contact-box {
         padding-left: 50px;
     }
-}
+} */
 
 /**Main Header Two **/
-@media only screen and (min-width: 1200px) and (max-width: 1310px) {
+/* @media only screen and (min-width: 1200px) and (max-width: 1310px) {
     .main-header--one--two .main-header--one__bottom-left {
         padding-left: 50px;
     }
     .main-header--one--two .main-header--one__bottom-middel {
         padding-right: 60px;
     }
-}
+} */
 
 /**Projects One **/
 @media only screen and (min-width: 1200px) and (max-width: 1470px) {
