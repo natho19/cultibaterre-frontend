@@ -17,9 +17,11 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-    --agriox-font: 'DM Sans', sans-serif;
-    --agriox-font-2: 'Averia Sans Libre', cursive;
+    --agriox-font: 'Montserrat', sans-serif;
+    /* --agriox-font-2: 'Averia Sans Libre', cursive; */
+    --agriox-font-2: 'Montserrat', sans-serif;
     --agriox-font-3: 'Shadows Into Light', cursive;
+    /* --agriox-font-3: 'Montserrat', sans-serif; */
     --agriox-base: #b6d549;
     --agriox-base-rgb: 182, 213, 73;
     --agriox-primary: #334b35;
@@ -4334,6 +4336,7 @@ button {
 }
 
 .cta-one__left-title h2 {
+    /* font-size: 32px; */
     font-size: 46px;
     line-height: 56px;
     font-family: var(--agriox-font-3, 'Shadows Into Light', cursive);
