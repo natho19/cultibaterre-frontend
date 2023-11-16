@@ -8738,6 +8738,10 @@ Sidebar
     border-radius: 10px;
 }
 
+.projects-details__img img {
+    width: 100%;
+}
+
 .projects-details__information {
     position: relative;
     display: block;
@@ -8792,89 +8796,21 @@ Sidebar
     color: var(--agriox-base, #b6d549);
 }
 
-.projects-details__text-box1 {
+.projects-details__text-box {
     position: relative;
     display: block;
     margin-top: 45px;
 }
 
-.projects-details__text-box1 h2 {
+.projects-details__text-box h2 {
     font-size: 50px;
     line-height: 60px;
     letter-spacing: -0.04em;
 }
 
-.projects-details__text-box1 .text1 {
+.projects-details__text-box p {
     margin-bottom: 33px;
     margin-top: 37px;
-}
-
-.projects-details__text-box2 {
-    position: relative;
-    display: block;
-    margin-top: 42px;
-}
-
-.projects-details__text-box2 h2 {
-    font-size: 40px;
-    line-height: 50px;
-    letter-spacing: -0.04em;
-    margin-bottom: 39px;
-}
-
-.projects-details__text-box2-list {
-    position: relative;
-    display: block;
-    margin-top: 37px;
-}
-
-.projects-details__text-box2-list ul {
-    position: relative;
-    display: block;
-}
-
-.projects-details__text-box2-list ul li {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-bottom: 9px;
-}
-
-.projects-details__text-box2-list ul li:last-child {
-    margin-bottom: 0;
-}
-
-.projects-details__text-box2-list ul li .icon {
-    position: relative;
-    display: block;
-}
-
-.projects-details__text-box2-list ul li .icon i::before {
-    position: relative;
-    display: inline-block;
-    top: 3px;
-    color: var(--agriox-base, #b6d549);
-    font-size: 23px;
-}
-
-.projects-details__text-box2-list ul li .text {
-    position: relative;
-    display: block;
-    padding-left: 20px;
-}
-
-.projects-details__text-box2-list ul li .text p {
-    color: var(--agriox-primary, #334b35);
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.projects-details__text-box2 .text2 {
-    margin-top: 33px;
 }
 
 .projects-details__pagination {
