@@ -261,7 +261,7 @@ button {
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     border: none;
     outline: none !important;
     background-color: var(--agriox-base, #b6d549);
@@ -10432,7 +10432,7 @@ Sidebar
     .cta-three__box {
         display: -ms-grid;
         display: grid;
-        -ms-grid-columns: (1fr) [3];
+        /* -ms-grid-columns: (1fr) [3]; */
         grid-template-columns: repeat(3, 1fr);
     }
 }
@@ -11845,8 +11845,8 @@ Sidebar
     border: none;
     outline: none;
     background-color: transparent;
-    -webkit-appearance: textfield;
-    -moz-appearance: textfield;
+    /* -webkit-appearance: textfield; */
+    /* -moz-appearance: textfield; */
     padding-right: 30px;
     text-align: center;
 }
@@ -12358,8 +12358,8 @@ Sidebar
     border: none;
     outline: none;
     background-color: transparent;
-    -webkit-appearance: textfield;
-    -moz-appearance: textfield;
+    /* -webkit-appearance: textfield; */
+    /* -moz-appearance: textfield; */
     padding-right: 30px;
     text-align: center;
 }
