@@ -12880,12 +12880,9 @@ body.boxed-wrapper {
 --------------------------------------------------------------*/
 
 .logo img,
-.logo-box img {
-    width: 220px;
-}
-
+.logo-box img,
 .footer-widget__about-logo img {
-    width: 200px;
+    width: 220px;
 }
 
 .logo .light-logo {
