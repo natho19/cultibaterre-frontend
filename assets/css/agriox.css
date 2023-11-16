@@ -3101,7 +3101,7 @@ button {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 508px;
+    height: 523px;
     background: #f6f4ec;
     z-index: -1;
     background-image: url(../images/backgrounds/service-top-bg-1-1.png);
@@ -5875,6 +5875,7 @@ button {
 
 .faq-one__accordions.faq-one__accordions--services-details {
     margin-left: 0;
+    margin-top: 40px;
 }
 
 .faq-one__accordions--services-details.faq-one__accordions .accrodion .accrodion-title {
@@ -7160,18 +7161,18 @@ button {
     margin-bottom: 23px;
 }
 
-.services-details__content-text1 {
+.services-details__content-description p {
     position: relative;
     display: block;
-    margin-bottom: 33px;
+    margin-bottom: 20px;
 }
 
-.services-details__content-text2 {
+/* .services-details__content-text2 {
     position: relative;
     display: block;
-}
+} */
 
-.services-details__content-text3 {
+/* .services-details__content-text3 {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7181,7 +7182,7 @@ button {
     align-items: center;
     margin-top: 54px;
     margin-bottom: 50px;
-}
+} */
 
 .services-details__content-text3 .img-box {
     position: relative;
