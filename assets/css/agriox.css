@@ -2230,7 +2230,7 @@ button {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 220px 0px 120px;
+    padding: 150px 0px 150px;
     z-index: 1;
     overflow: hidden;
 }
@@ -12882,6 +12882,10 @@ body.boxed-wrapper {
 .logo img,
 .logo-box img {
     width: 220px;
+}
+
+.footer-widget__about-logo img {
+    width: 200px;
 }
 
 .logo .light-logo {
