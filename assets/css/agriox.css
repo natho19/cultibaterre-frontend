@@ -4661,8 +4661,9 @@ button {
     display: block;
 }
 
-.footer-widget__news-list-item-img img {
-    width: 80px;
+.footer-widget__news-list-item-img img,
+.testimonials-one__single-client-info-img-inner img {
+    width: 80px !important;
 }
 
 .footer-widget__news-list-item-title {
@@ -6828,6 +6829,10 @@ button {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.about-three__img-box-img-inner img {
+    width: 100%;
 }
 
 .about-three__img-box-img-inner::before {
