@@ -12879,7 +12879,8 @@ body.boxed-wrapper {
 # Dark CSS
 --------------------------------------------------------------*/
 
-.logo img {
+.logo img,
+.logo-box img {
     width: 220px;
 }
 
