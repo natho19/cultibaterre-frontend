@@ -4661,6 +4661,10 @@ button {
     display: block;
 }
 
+.footer-widget__news-list-item-img img {
+    width: 80px;
+}
+
 .footer-widget__news-list-item-title {
     position: relative;
     display: block;
