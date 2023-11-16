@@ -1726,7 +1726,7 @@ button {
     line-height: 0;
 }
 
-.main-header--one__bottom-right .contact-box::before {
+/* .main-header--one__bottom-right .contact-box::before {
     position: absolute;
     top: 9px;
     left: 0;
@@ -1734,7 +1734,7 @@ button {
     width: 1px;
     background: #eceae0;
     content: '';
-}
+} */
 
 .main-header--one__bottom-right .contact-box .icon {
     position: relative;
