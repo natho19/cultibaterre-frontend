@@ -1,2 +1,4 @@
 Coffee : #785a22
 Green : #b6d549
+
+    color: var(--agriox-secondary, #785a22);
