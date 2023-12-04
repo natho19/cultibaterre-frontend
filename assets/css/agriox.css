@@ -6652,7 +6652,7 @@ button {
     display: block;
     background: #ffffff;
     padding: 120px 0px 120px;
-    background-image: url(../images/backgrounds/about-3-bg-1-1.png);
+    /* background-image: url(../images/backgrounds/about-3-bg-1-1.png); */
     background-repeat: no-repeat;
     background-position: left bottom;
 }
@@ -6693,6 +6693,10 @@ button {
 .about-three__content-box-inner {
     position: relative;
     display: block;
+}
+
+.about-three__content-box-inner p {
+    margin-bottom: 20px;
 }
 
 .about-three__content-box-inner h2 {
